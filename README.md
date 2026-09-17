@@ -1,10 +1,12 @@
-# Viktor Aseev's Homebrew tap
+# Homebrew tap
 
-Общий tap для моих приложений. Сейчас доступен [DNS Reset for Tunnelblick](https://github.com/viktoraseev/dns-reset-tunnelblick).
+[Русский](README.ru.md)
+
+A shared Homebrew tap for my apps. Currently it contains [Tunnelblick Reset](https://github.com/viktoraseev/dns-reset-tunnelblick).
 
 ```sh
 brew tap viktoraseev/homebrew https://github.com/viktoraseev/homebrew.git
 brew install --cask viktoraseev/homebrew/dns-reset-tunnelblick
 ```
 
-Приложение пока не заверено у Apple. Инструкции для первого запуска и настройки Touch ID находятся в [README проекта](https://github.com/viktoraseev/dns-reset-tunnelblick#readme).
+The cask still installs the existing 1.0.0 release named `DNS Reset.app`. The renamed, English-localized app is in the source repository and has not been released yet. See the [project README](https://github.com/viktoraseev/dns-reset-tunnelblick#readme) for build and Touch ID setup instructions.
