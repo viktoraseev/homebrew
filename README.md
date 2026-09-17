@@ -9,4 +9,4 @@ brew tap viktoraseev/homebrew https://github.com/viktoraseev/homebrew.git
 brew install --cask viktoraseev/homebrew/dns-reset-tunnelblick
 ```
 
-The cask still installs the existing 1.0.0 release named `DNS Reset.app`. The renamed, English-localized app is in the source repository and has not been released yet. See the [project README](https://github.com/viktoraseev/dns-reset-tunnelblick#readme) for build and Touch ID setup instructions.
+The cask installs Tunnelblick Reset 1.1.0 for Apple Silicon or Intel. See the [project README](https://github.com/viktoraseev/dns-reset-tunnelblick#readme) for Touch ID setup instructions.

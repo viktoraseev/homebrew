@@ -1,16 +1,16 @@
 cask "dns-reset-tunnelblick" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.0"
-  sha256 arm:   "8703c18e7b86dff22c643db8a9ca70fce058a96304da89cb0d2e9ef11ca9b6fa",
-         intel: "eb12f22f9b41b36325a338bd9dafa6c57dd08eeefb26a0d1b23840b4da68effd"
+  version "1.1.0"
+  sha256 arm:   "93496297fe53d6032966767ba31c6813b6772d0a701d86391fa97a5079d8c502",
+         intel: "ad49f27c3f8f861bb0937fbad2ef07322f93fad6a6fda41ebd25288cfcb67844"
 
   url "https://github.com/viktoraseev/dns-reset-tunnelblick/releases/download/v#{version}/dns-reset-tunnelblick-v#{version}-macos-#{arch}.zip"
-  name "DNS Reset for Tunnelblick"
+  name "Tunnelblick Reset"
   desc "Menu bar network recovery after Tunnelblick hangs"
   homepage "https://github.com/viktoraseev/dns-reset-tunnelblick"
 
   depends_on macos: :ventura
 
-  app "DNS Reset.app"
+  app "Tunnelblick Reset.app"
 end
